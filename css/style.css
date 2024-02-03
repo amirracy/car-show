@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+.container-fluid{
+    overflow: hidden;
+}
+
+.navbar-nav{
+   margin-left: auto;
+   font-weight: bolder;
+   gap: 50px;
+}
+.nav-item a:hover{
+    color: rgb(19, 235, 15);
+    text-decoration:dashed ;
+    text-decoration: underline;
+    transition: 0.8s;
+}
+.about_main{
+    /* border: 1px solid; */
+    width: 100%;
+    height: auto;
+}
+.about_inner1{
+    padding: 20px;
+    /* border: 1px solid; */
+    /* width: 100%; */
+    height: 400px;
+      
+}
+.aboutphoto_inner1{
+    /* width: 50%; */
+    height: 100%;
+}
+.aboutphoto_text1{
+    width: 50%;
+    height: 100%;
+    
+}
+.products_main{
+    /* border: 1px solid; */
+    width: 100%;
+    height: auto;
+}
+.productinner_main{
+    /* border: 1px solid; */
+    align-items: center;
+    width: 100%;
+    height:auto;
+    
+}
+.productinner_main2{
+    /* border: 1px solid; */
+    align-items: center;
+    width: 100%;
+    height:auto;
+}
+.main3{
+    /* border: 1px solid; */
+    width: 100%;
+    height: auto;
+}
+.checked {
+    color: orange;
+}
+.text_check{
+    padding-top: 80px;
+   
+}
+.review1{
+    display: flex;
+    /* border: 1px solid; */
+    width: 100%;
+    height: 450px;
+    align-items: center;
+    justify-content: center;  
+}
+.review1_inner{
+    padding-top: 40px;
+    /* border: 1px solid; */
+    width: 600px;
+    height: 450px;
+}
+.card{
+    background-color: blue;
+    height: 18rem;
+    width: 20rem;
+    
+}
+.submit:hover{
+    box-shadow: 0 0 1px 3px;
+    background-color: rgb(243, 10, 10);
+    transition: 0.5s;
+}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++ media Qry */
+/* @media (min-width:576px) {
+    .card{
+        width: 19rem;
+        height: 18rem;
+    }
+    .col2_img5{
+        border: 3px solid;
+        width: 450px;
+        height: 400px;
+    }
+  
+} */
+@media (max-width: 576px) {
+    .card{
+        margin-right: 50px;
+    }
+    .card img{
+        /* background-color: black; */
+        /* height: 500px; */
+        width: 300px;
+        padding-right: 10px;
+    }
+    .card{
+        margin-bottom: 10px;
+        
+    }
+    .card-body{
+        /* text-align:center ; */
+        /* margin-left: 100px; */
+    }
+   .contact input{
+        width: 270px;
+        outline: 1px solid;
+   }
+   .contact textarea{
+    width: 270px;
+    outline: 1px solid;
+   }
+   .contact .submit{   
+    margin-left: 100px;
+   }
+   .main_2 p{
+    font-size: 14px;
+   }
+  
+}
+ 
